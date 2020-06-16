@@ -1,0 +1,222 @@
+@media (min-width:320px) and (max-width:575px){
+    /* nav part start */
+    nav{
+        top: 0;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li{
+        margin-left: 0;
+    }
+
+    nav ul li a:hover::after{
+        width: 0%;
+    }
+    /* nav part end */
+
+    /* banner part start */
+    #banner-part .overlay p{
+        width: auto;
+    }
+
+    #banner-part .banner{
+        height: 550px;
+    }
+
+    #banner-part .banner2{
+        height: 550px;
+    }
+
+    #banner-shape{
+        display: none;
+    }
+
+    #banner-part ul{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 222;
+    }
+
+    #banner-part ul li{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    #banner-part ul li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #fff;
+    }
+
+    #banner-part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    /* banner part end */
+
+    /* about part start */
+    #about-part{
+        margin-top: 80px;
+    }
+
+    #about-part .title p{
+        width: auto;
+    }
+
+    #about-part .item{
+        margin-top: 20px;
+    }
+
+    #about-part .item p{
+        width: auto;
+    }
+    #about-part #triangle-up{
+        display: none;
+    }
+    #about-part #triangle-left{
+        display: none;
+    }
+    #about-part #triangle-right{
+        display: none;
+    }
+    #about-part #triangle-down{
+        display: none;
+    }
+
+    #about-part .item i{
+        display: none;
+    }
+
+    #about-part .img{
+        width: 250px;
+        height: 250px;
+        line-height: 250px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #about-part .img img{
+        width: 210px;
+        height: 210px;
+    }
+    /* about part end */
+
+    /* portfolio part start */
+    #portfolio-part .title p{
+        width: auto;
+    }
+
+       #portfolio-part .overlay{
+           padding: 50px 0;
+       }
+    /* portfolio part end */
+
+    /* servoce part start */
+
+    #service-part .title p{
+        width: auto;
+    }
+
+    #service-part .line{
+        display: none;
+    }
+
+    #service-part .restitle{
+        display: block;
+    }
+    #service-part .item{
+        width: auto !important;
+        flex-direction: column;
+        float: none !important;
+    }
+
+    #service-part .item2{
+        width: auto !important;
+        flex-direction: column;
+        float: none !important;
+    }
+    #service-part .item .left{
+        display: none;
+    }
+    #service-part .item .middle{
+        display: none;
+    }
+    #service-part .item .right{
+        width: 100%;
+    }
+
+    #service-part .item2 .left{
+        display: none;
+    }
+    #service-part .item2 .middle{
+        display: none;
+    }
+
+    #service-part .item2 .right{
+        width: 100%;
+    }
+
+    #service-part .item{
+        margin-top: 0;
+    }
+    #service-part .item2{
+        margin-top: 0;
+    }
+
+    #service-part .sprev{
+        top: -40px;
+    }
+
+    /* servoce part end */
+
+    /* teti part start */
+    #testi-part{
+        margin-top: 100px;
+    }
+
+    #testi-part .testi-slider .left .item .img
+    {
+        width: 50px;
+        height: 50px;
+        margin-top: 45px;
+        
+    }
+
+    #testi-part .testi-slider .left .item .img img{
+        margin-top: 5px;
+    }
+
+    #testi-part .slick-center .img{
+        transform: scale(1.2);
+    }
+    /* teti part end */
+
+    /* pricing part start */
+    #pricing-part .item{
+        margin-bottom: 20px;
+    }
+    /* pricing part end */
+
+    /* counter part start */
+
+    #counter-part .box{
+        margin-bottom: 20px;
+    }
+    #counter-part .box .text h2{
+        font-size: 34px;
+    }
+
+    #counter-part .box .text p{
+        font-size: 14px;
+    }
+    /* counter part end */
+}
